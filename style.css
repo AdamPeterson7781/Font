@@ -1,0 +1,72 @@
+.overflow{
+    overflow-y: hidden;
+}
+
+/*Navbar*/
+.t{
+    color: black!important;
+    transition: 3s;
+}
+
+.t:hover{
+    color: rgb(46, 130, 240)!important;
+}
+
+/*Home*/
+
+.font{
+    font-size: 56px;
+}
+
+.font-p{
+    font-size: 21px;
+}
+
+
+@media screen and (max-width: 991px) {
+    .font{
+        font-size: 36px;
+    }
+    
+    .font-p{
+        font-size: 17px;
+    }
+}
+
+/*Home__2*/
+
+.style{
+    font-family: sans-serif;
+}
+
+.home__title{
+    font-size: 18px;
+}
+
+.home__text{
+    font-size: 16px;
+}
+
+.learn-more{
+    color: gray!important;
+}
+
+.learn-more:hover{
+    color: rgb(46, 130, 240)!important;
+}
+
+@media screen and (min-width: 1399px) {
+    .container-checked{
+        margin: 0 0 0 -30px; 
+    }
+    
+    .checked{
+        width: 723px;
+    }
+}
+
+/*Review*/
+.review-style{
+    margin-top: 100px; 
+    margin-bottom: 100px;
+}
